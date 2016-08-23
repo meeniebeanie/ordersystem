@@ -28,7 +28,7 @@ module.exports = function() {
   app.use(expressLayouts);
 
 // need to require routes
-  require('../app/routes/order.server.routes')(app);
+  // require('../app/routes/order.server.routes')(app);
 
 
   app.use(express.static('./public'));
